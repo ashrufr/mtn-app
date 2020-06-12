@@ -1,0 +1,44 @@
+.item {
+   background-color: #ddd;
+   width: 700px;
+   box-shadow: 4px 4px #ccc;
+   margin-top: 20px;
+   margin-left: 10px;
+   font-size: 15px;
+}
+
+table {
+   width: 100%;
+   background-color:white;
+   border: 1px solid #ccc;
+}
+
+th {
+   background-color: black;
+   color: white;
+   border: 0px solid black;
+}
+
+tr:hover {
+   background-color: red;
+   cursor: pointer;
+   border: 1px solid #ccc;
+}
+
+.trsystem:hover {
+   background-color: white;
+   color: black;
+}
+
+.itemhead {
+   background-color:#ccc;
+   top: 0px;
+   margin-top: 0px;
+
+}
+
+.itemval {
+   display: flex;
+   flex-flow: col;
+
+}
